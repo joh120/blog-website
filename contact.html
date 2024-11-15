@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="images/sport.png" />
+        <h1><i>SP News</i></h1>
+        <a href="index.html" target="_blank">Home</a>
+        <a href="about.html" target="_blank">About Me</a>
+        <a href="blog-list.html">Blog Posts</a>
+        <a href="contact.html" target="_self">Contact</a>
+      </nav>
+    </header>
+    <br /><br />
+
+    <main>
+      <section>
+        <div>
+          <h1 class="main-content" id="SP1">Contact Us</h1>
+
+          <p class="main-content">
+            The renowned blog website that gives only the latest
+            <u>football</u> news from around the globe!
+          </p>
+
+          <p class="main-content">Subscribe and contact us today !</p>
+
+          <form class="form" action="index.php" method="post">
+            <h3 class="blog-list-p"><u>Contact Form:</u></h3>
+
+            <label for="name" class="blog-list-p"> Name </label>
+            <input
+              type="text"
+              id="name"
+              placeholder="first and last name"
+              minlength="6"
+              maxlength="12"
+              class="text"
+            />
+            <br />
+
+            <label for="email" class="blog-list-p">Email:</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="your email"
+              class="text"
+            />
+            <br />
+
+            <label for="phone" class="blog-list-p">Phone:</label>
+            <input
+              type="tel"
+              id="phone"
+              placeholder="123-456-7890"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              class="text"
+            />
+            <br />
+
+            <br />
+
+            <label for="comment" class="blog-list-p">Comment: </label>
+            <textarea id="comment" rows="3" cols="25" class="text"> </textarea>
+            <br /><br />
+            <label for="checkbox" class="blog-list-p">Subscribe:</label>
+            <input type="checkbox" />
+
+            <br /><br />
+
+            <input type="submit" />
+            <input type="reset" />
+          </form>
+        </div>
+      </section>
+      <section class="contact">
+        <div>
+          <p class="main-content" id="SP2">
+            <b>Subscribe Now To Not Miss Out On The Latest SP News!</b>
+          </p>
+        </div>
+      </section>
+      <br />
+      <section class="main">
+        <div>
+          <h1>
+            <b class="headline"><u>Top Headlines</u></b>
+          </h1>
+
+          <img src="images/bruno.jpg" width="300" />
+
+          <p class="main-news">
+            <a href="blog-list.html" target="_blank">
+              Bruno Fernandes sends important message to Ten Hag after exit from
+              Manchester United
+            </a>
+          </p>
+
+          <p class="main-content">Follow SP News on the following:</p>
+          <img class="socials" src="images/x.png" />
+          <img class="socials" src="images/youtube.jpg" />
+          <img class="socials" src="images/fb.png" />
+        </div>
+
+        <div class="other-news">
+          <h1 class="headline"><u>Other News</u></h1>
+          <img src="images/neymar.jpg" /><img src="images/neymar-jr.jpg" />
+          <br /><br />
+          <p class="main-news">
+            <a href="blog-list.html" target="_blank">
+              What does Neymar's future hold? Santos president gives update on
+              whether Al-Nassr superstar could return!</a
+            >
+          </p>
+          <br /><br />
+
+          <img src="images/xavi-future.jpg" height="185" />
+          <p class="main-news" id="other-news">
+            Xabi Alonso will leave Bayer Leverkusen this summer:
+          </p>
+
+          <p class="main-news">
+            <a href="blog-list.html" target="_blank">
+              What will be his next destination?</a
+            >
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h5>
+        <i> SP News </i> <br />
+        <i>&copy; copyright reserved</i><br />
+      </h5>
+      <div class="div">
+        <img src="images/safari.jpg" />
+        <img src="images/sportpes.png" />
+        <img src="images/espn.png" />
+        <img src="images/fly.png" />
+      </div>
+    </footer>
+  </body>
+</html>
